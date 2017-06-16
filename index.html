@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" charset="utf-8" />
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 940px)" href="stylewidth940.css" charset="utf-8" />
+	<link rel="icon" type="image/png" href="style/favicon.png" />
+	<meta name="viewport" content="width=320">
+	<meta charset="utf-8">
+	<script src="style/jquery.min.js"></script>
+	<title>♠ WILD CIRCUS ♠  -  Welcome to Hell</title>
+</head>
+
+<body>
+
+	<header>	<!-- Titre -->
+		<div id="title">
+			<h1>WILD CIRCUS</h1>
+		</div>
+
+		<nav>	<!-- Navigation -->
+			<ul id="nav">
+				<a href="#"><li>HOME</li></a>
+				<a href="#welcomeconte"><li>ACTS</li></a>
+				<a href="#buyticket"><li>BUY TICKETS</li></a>
+				<a href="#about"><li>CONTACT US</li></a>
+			</ul>
+		</nav>
+	</header>
+
+	<div id="welcomecont">	<!-- Bienvenue msg -->
+		<div id="welcomeconte">
+			<h1>WELCOME</h1><br/>
+			<p>Come and discover the biggest horror showcase with more than a dozen of unpublished acts in the world!</p><br/>
+
+			<span class="welcomet"><p>Schedule: Monday to Sunday from 8 pm to 11 pm</p></span>
+		</div>
+	</div>
+
+	<div id="page">
+
+		<section class="section">
+			<!-- IMAGE -->
+			<p><img src="img/playwithfire1.jpg" class="img" alt="Play with fire" data-name="playwithfire" /></p>
+			<!-- TITRE -->
+			<h1>DON'T PLAY WITH THE FIRE ...</h1>
+			<!-- DESCRIPTION -->
+			<p><br/>Fire is the production of a flame and the visible degradation of a body by an oxidation chemical reaction called combustion.<br/><br/>
+			For several years, Lydia has been playing with fire. She tames the flames and controls them to a completely crazy music. Sometimes Lydia loses control and becomes mindless, irrational ... Smell at your hair, it could be that it smells like a barbecue!<br/><br/>
+			Are you burning with impatience?</p>
+		</section>
+		
+		<section class="section">
+			<!-- IMAGE -->
+			<p><img src="img/knives1.jpg" class="img" alt="Knive Throwing" data-name="knives" /></p>
+			<!-- TITRE -->
+			<h1>KNIFE THROWING</h1>
+			<!-- DESCRIPTION -->
+			<p><br/>Chris is big and strong, his precision will (or won't) save your life. Since the youngest age he hunts with blades.<br/><br/>
+			His assistant Lyn has already paid the price, will she end up alive at the end of this issue? Or completely pierced with knives? It would be a pity to destroy this body of a princess.<br/><br/>
+			Come and discover this show and open your eyes.</p>
+		</section>
+
+		<section class="section">
+			<!-- IMAGE -->
+			<p><img src="img/mime1.jpg" class="img" alt="Mime" data-name="mime" /></p>
+			<!-- TITRE -->
+			<h1>BROTHERS LAKAN</h1>
+			<!-- DESCRIPTION -->
+			<p><br/>They will never speak and yet you will be frightened!<br/><br/>
+			With a father and mother completely crazy, how not to become one? After having assassinated their parents, the brothers decided to leave the family home and travel the world.<br/>When the Lakan brothers arrive in the city, suspicious disappearances go on TV...<br/><br/>
+			Are they only three? Be careful, you may be the next!</p>
+		</section>
+
+
+		<script>
+			$(document).ready(function() {
+			
+				$('.section').on('mouseenter', function() {
+				var namepic = $(this).closest('.section').find('img').data('name');
+					$(this).addClass('sectionmouse')
+					$(this).closest('.section').find('img').attr('src', 'img/'+namepic+'2.jpg');
+				});
+				$('.section').on('mouseleave', function() {
+				var namepic = $(this).closest('.section').find('img').data('name');
+					$(this).removeClass('sectionmouse');
+					$(this).closest('.section').find('img').attr('src', 'img/'+namepic+'1.jpg');
+				});
+			});
+		</script>
+
+
+
+	<div id="buyticket">
+		<section class="buy">
+			<h1>Buy your tickets</h1><br/>
+			<form metod="post" action="#buyticket" class="formprice" data-price="55">
+
+				<label for="pays">Select the nomber of ticket you want buy</label><br />
+		       	<select name="pays" id="nbticket">
+		        	<option value="1" selected>1 ticket</option>
+		           	<option value="2">2 tickets</option>
+		          	<option value="3">3 tickets</option>
+					<option value="4">4 tickets</option>
+					<option value="5">5 tickets</option>
+		       	</select>
+				<input type="submit" value="Buy"><br/>
+				<p><strong>TOTAL:</strong> $<span id="totalticket">55</span> (inclusive of VAT)</p>
+			</form>
+				<script>
+					$(document).ready(function() {	
+						$('select').on('change', function () {
+							var quantity = +$(this).val();
+							var price = +$(this).closest('.formprice').data('price');
+							$('#totalticket').text(price * quantity);
+						});
+					});
+				</script>
+		</section>
+
+		<section class="buy">
+			<h1>How to buy ?</h1><br/>
+			<p>Choose the number of tickets you wish to buy, you will be redirected to the site of your bank for payment.</p></br>
+			<p>If you want more than 5 tickets, please renew your order.</p>
+		</section>
+	</div>
+
+	</div> <!-- #page -->
+
+
+	<footer>
+		<div id="fotter_contener">
+
+			<div class="fcontener_div" id="about">
+				<h1>About Us</h1>
+				<p>City Hall<br/>The Queen's Walk on the Hell<br/>LONDON SE1 2AA<br/><br/><strong>Phone:</strong> 020 1234 5000
+			</div>
+			<div class="fcontener_div" id="mailing">
+				<h1>Mailing list</h1>
+				<form metod="post" action="#mailing">
+					<input type="email" name="mail" id="mail" placeholder="yourmail@circus.com" required />
+					<input type="submit" value="Subscribe">
+				</form>
+
+			</div>
+			
+			<div class="fcontener_div" id="Robozzle">
+				<a href="http://www.robozzle.com/user.aspx?name=Eoras" target="_blank"><h1>RoboZZle</h1>
+				<img src="img/Robozzle.jpg" alt="RoboZZle"><br/>
+				<p>Try it</p></a>
+			</div>
+
+			<div class="fcontener_div" id="social">
+				<h1>Social</h1>
+				<a href="#social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="#social"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="#social"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+				<a href="#social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			</div>
+
+		</div>
+
+		<script>
+			$(document).ready(function() {
+				$('.fcontener_div').on('mouseenter', function() {
+					$(this).addClass('fcontener_mouse');
+				});
+				$('.fcontener_div').on('mouseleave', function() {
+					$(this).removeClass('fcontener_mouse');
+				});
+			});
+		</script>
+	</footer>
+	<div id="copyright">
+		<p>COPYRIGHT © 2017 - WILD CODE SCHOOL | Eöras | ALL RIGHTS RESERVED
+	</div>
+
+</body>
+</html>

@@ -145,7 +145,7 @@ header {
 	text-align: center;
 
 }
-.buy * {
+.buy input, select, select option{
 		color: black;
 }
 .buy {

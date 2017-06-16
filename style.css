@@ -47,6 +47,7 @@
 body {
 
 	background: url("img/wallpaper.png") fixed no-repeat center;
+	background-color: black;
 	background-size: cover;
 	padding-top: 160px;
 }

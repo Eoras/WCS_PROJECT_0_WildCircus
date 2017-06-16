@@ -8,7 +8,6 @@
          url('style/20db/20db-webfont.svg#20_dbregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -20,7 +19,6 @@
          url('style/existence_light/Existence-Light-webfont.svg#existencelight') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -43,7 +41,6 @@
     	-moz-box-sizing: border-box;
         	box-sizing: border-box; */
     color: white;
-
 }
 
 /* ******************** BODY ******************** */
@@ -52,7 +49,6 @@ body {
 	background: url("img/wallpaper.png") fixed no-repeat center;
 	background-size: cover;
 	padding-top: 160px;
-	
 }
 
 /* ******************** HEADER ******************** */
@@ -81,7 +77,6 @@ header {
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	padding-bottom: 10px;
-
 }
 
 #nav li {
@@ -89,7 +84,6 @@ header {
 	text-align: center;
 	padding: 10px 0;
 	font-family: existencelight, 'Trebuchet MS', Helvetica, sans-serif;
-
 }
 
 #nav a {
@@ -98,19 +92,17 @@ header {
 
 #nav a:hover {
 	font-size: 1.2em;
-
 }
+
 #nav li:hover {
 	transition: 1s;
 	background: rgba(250, 0, 0, 0.4);
 	border-radius: 30px 10px;
 	box-shadow: 10px white;
-
 }
 
 
 /* ******************** PAGE / CONTENU ******************** */
-
 #page {
 	padding: 20px;
 }
@@ -141,7 +133,7 @@ header {
 	text-align: center;
 }
 
-#we*lcomeconte .welcomet p {
+#welcomeconte .welcomet p {
 	font-size: 1.5em;
 	text-shadow: 5px 5px 10px white;
 }
@@ -199,10 +191,10 @@ header {
 
 .sectionmouse {
 	background: rgba(0, 0, 0, 0.9);
-	
 }
-/* ******************** BUY TICKET ******************** */
 
+
+/* ******************** BUY TICKET ******************** */
 #buyticket {
 	background: rgba(0, 0, 0, 0.9);
 	border-radius: 10px;
@@ -244,7 +236,6 @@ header {
 .buy form label {
 		color: white;
 }
-
 
 .buy select {
 	width: 200px;
@@ -292,6 +283,8 @@ footer{
 .fcontener_mouse {
 		background-color: rgba(255, 255, 255, 0.2);
 }
+
+
 /* TEXT */
 .fcontener_div h1{
 	font-size: 1.2em;
@@ -306,7 +299,6 @@ footer{
 /* ABOUT */
 
 /* MAILING */
-
 input[placeholder], [placeholder], *[placeholder] {
     color: black;
 }
@@ -329,7 +321,6 @@ input[type=email] {
     margin: 10px 0;
     border: none;
     border-radius: 2px;
-
     cursor: pointer;
 }
 
@@ -338,11 +329,13 @@ input[type=email] {
     cursor: pointer;
 }
 
+
 /* ROBOZZLE */
 #Robozzle img {
 	width: 50px;
 	border-radius: 15px;
 }
+
 
 /* SOCIAL © http://fontawesome.io/*/
 .fa {
@@ -363,12 +356,15 @@ input[type=email] {
 .fa-facebook:before {
   content: "\f09a";
 }
+
 .fa-twitter:before {
   content: "\f099";
 }
+
 .fa-github-alt:before {
   content: "\f113";
 }
+
 .fa-linkedin:before {
   content: "\f0e1";
 }

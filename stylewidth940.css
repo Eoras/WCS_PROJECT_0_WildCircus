@@ -1,3 +1,5 @@
+/* ******************** FONT FACE ******************** */
+
 /* ******************** BODY ******************** */
 body {
 
@@ -5,48 +7,27 @@ body {
 	background-size: cover;
 	padding-top: 110px;
 }
+/* ******************** ALL ******************** */
+
+/* ******************** BODY ******************** */
 
 /* ******************** HEADER ******************** */
 header {
-	margin: auto;
-	background: url("img/background.jpg") repeat;
-	background-color: rgba(0, 0, 0, 1);
-	position: fixed;
-	top: 0;
+
 	height: 100px;
-	width: 100%;
 	min-width: 500px;
 }
 
 /* Titre */
 #title h1 {
-	text-align: center;
-	font-family: "20_dbregular", impact, "Arial Black", Arial, Verdana ;
-	font-size: 2.5em;
-	text-shadow: 1px 1px 2px black, 0 0 20px white, 0 0 5px rebeccapurple;
 	white-space:nowrap;
 }
 
 /* Navigation */
-#nav {
-	list-style: none;
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	padding-bottom: 10px;
-
-}
 
 #nav li {
 	min-width: 120px;
-	text-align: center;
 	padding: 8px 0;
-	font-family: existencelight, 'Trebuchet MS', Helvetica, sans-serif;
-
-}
-
-#nav a {
-	text-decoration: none;
 }
 
 #nav a:hover {
@@ -54,11 +35,7 @@ header {
 
 }
 #nav li:hover {
-	transition: 1s;
-	background: rgba(250, 0, 0, 0.4);
-	border-radius: 30px 10px;
 	box-shadow: 5px white;
-
 }
 
 
@@ -74,78 +51,48 @@ header {
 #welcomecont {
 	min-width: 500px;
 }
+
 #welcomecont h1 {
 	font-size: 1.5em;
-
 }
 
 #welcomecont p {
 	font-size: 1em;
 }
 
-#welcomeconte .welcomet p {
-	font-size: 1.5em;
-	text-shadow: 5px 5px 10px white;
-}
 
+/*  SECTIONS  */
 .section .img {
 	max-height: 250px;
 
 }
 
-.section h1 {
-	font-family: "20_dbregular", impact, "Arial Black", Arial, Verdana ;
-	font-size: 1.5em;
-	font-weight: bolder;
-}
-
-.section p {
-	text-align: justify;
-	font-family: existencelight, 'Trebuchet MS', Helvetica, sans-serif;
-	font-size: 1.2em;
-	font-style: italic;
-}
 .section p:nth-child(1) {
 	text-align: center;
-
 }
 
 /*  SECTIONS 1/2  */
 .section:nth-child(2n+1) .img {
 	float: none;
 	margin-left: 0px;
-
 }
 
 .section:nth-child(2n+1) h1 {
 	text-align: center;
 }
 
-
 /*  SECTIONS 2/2  */
 .section:nth-child(2n+0) .img {
 	float: none;
 	margin-right: 0px;
-
 }
 
 .section:nth-child(2n+0) h1 {
 	text-align: center;
 }
 
+
 /* ******************** BUY TICKET ******************** */
-
-#buyticket {
-	background: rgba(0, 0, 0, 0.9);
-	border-radius: 10px;
-	max-width: 1000px;
-	padding: 10px;
-	margin: auto;
-	margin-bottom: 20px;
-	text-align: center;
-
-}
-
 .buy {
 	padding: 30px;
 
@@ -156,7 +103,6 @@ header {
 
 .buy input[type=submit] {
 	font-size: 0.8em;
-
 }
 
 
@@ -181,11 +127,8 @@ footer{
 }
 
 /* TEXT */
-
 /* ABOUT */
-
 /* MAILING */
-
 
 
 /* ******************** COPYRIGHT ******************** */

@@ -145,53 +145,18 @@ header {
 	text-align: center;
 
 }
-.buy input, select, select option{
-		color: black;
-}
+
 .buy {
-	max-width: 500px;
 	padding: 30px;
-	margin: auto;
-	font-family: existencelight, 'Trebuchet MS', Helvetica, sans-serif;
-	color: white;
-	display: inline-block;
-	vertical-align:top;
 
 }
 .buy h1 {
-	font-family: "20_dbregular", impact, "Arial Black", Arial, Verdana ;
 	font-size: 1.3em;
-	color: white;
-}
-
-.buy p {
-	color: white;
-	text-align: justify;
-}
-
-.buy form p {
-	padding-left: 10px;
-}
-
-.buy form label {
-		color: white;
-}
-
-
-.buy select {
-	width: 200px;
-	font-size: 1em;
-	padding: 10px;
-	font-family: existencelight, 'Trebuchet MS', Helvetica, sans-serif;
-	margin-top: 10px;
 }
 
 .buy input[type=submit] {
-	width: 100px;
 	font-size: 0.8em;
-	padding: 10px;
-	font-family: existencelight, 'Trebuchet MS', Helvetica, sans-serif;
-	margin-top: 10px;
+
 }
 
 
@@ -200,13 +165,11 @@ header {
 /* Global */
 footer{
 	min-width: 500px;
-	font-size: 1em;
 }
 
 #fotter_contener {
 	display: block;
 	padding: 10px 0;
-	max-width: 1040px;
 	margin: auto;
 }
 
@@ -214,105 +177,18 @@ footer{
 .fcontener_div {
 	border-right: none;
 	border-left: none;
-	text-align: center;
 	margin: 10px;
-	padding: 10px 0;
-	flex: 1;
-	background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* TEXT */
-
-.fcontener_div h1{
-	font-size: 1.2em;
-	padding-bottom: 5px;
-	margin-bottom: 10px;
-
-}
-
-#fotter_contener a {
-	text-decoration: none;
-}
 
 /* ABOUT */
 
 /* MAILING */
 
-input[placeholder], [placeholder], *[placeholder] {
-    color: black;
-}
-
-input[type=email] {
-    width: 80%;
-    padding: 10px;
-    margin: 0;
-    border: none;
-    border-radius: 2px;
-	font-family: existencelight, 'Trebuchet MS', Helvetica, sans-serif;
-}
-
-#mailing input[type=submit] {
-    width: 50%;
-    background-color: white;
-    font-family: existencelight, 'Trebuchet MS', Helvetica, sans-serif;
-    color: black;
-    padding: 5px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 2px;
-
-    cursor: pointer;
-}
-
-#mailing input[type=submit]:hover {
-    background-color: rgba(220,220,220,1);
-    cursor: pointer;
-}
-
-/* ROBOZZLE */
-#Robozzle img {
-	width: 50px;
-	border-radius: 15px;
-}
-
-/* SOCIAL © http://fontawesome.io/*/
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-size: 1.8em;
-  margin: 10px;
-}
-
-.fa:hover {
-	color: red;
-}
-
-.fa-facebook:before {
-  content: "\f09a";
-}
-.fa-twitter:before {
-  content: "\f099";
-}
-.fa-github-alt:before {
-  content: "\f113";
-}
-.fa-linkedin:before {
-  content: "\f0e1";
-}
 
 
 /* ******************** COPYRIGHT ******************** */
 #copyright{
-	display: inline-block;
-	height: 20px;
-	width: 100%;
 	min-width: 500px;
-	background-color: rgba(0, 0, 0, 1);
-	font-family: existencelight, 'Trebuchet MS', Helvetica, sans-serif;
-	font-size: 0.8em;
-	text-align: center;
 }

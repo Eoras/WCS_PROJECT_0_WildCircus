@@ -72,6 +72,10 @@ header {
 	text-shadow: 1px 1px 2px black, 0 0 20px white, 0 0 5px rebeccapurple;
 }
 
+#title a {
+  text-decoration: none;
+}
+
 /* Navigation */
 #nav {
 	list-style: none;

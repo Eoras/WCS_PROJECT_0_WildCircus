@@ -45,8 +45,7 @@
 
 /* ******************** BODY ******************** */
 body {
-	background-color: black;
-	background: url("img/wallpaper.png") fixed no-repeat center;
+	background: black url("img/wallpaper.png") fixed no-repeat center;
 	background-size: cover;
 	padding-top: 160px;
 }

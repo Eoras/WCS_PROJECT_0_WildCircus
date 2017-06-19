@@ -13,6 +13,9 @@
 * 17-jun-2017 :cloud: upload website on github
 
 ----
-## Thanks
+## Success certificate
 * [Openclassrooms.com](https://openclassrooms.com/)
 * [Try.jquery.com](http://try.jquery.com/)
+
+![Image of badge Try.Jquery](https://raw.githubusercontent.com/Eoras/Wild-Circus/master/img/completed-try-jquery.png)
+![Image of badge Openclassrooms](https://raw.githubusercontent.com/Eoras/Wild-Circus/master/img/completed-htmlcss.png)

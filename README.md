@@ -1,6 +1,6 @@
 # Wild Circus
 - **PROJET** - *Wild Circus*
-- *0000_PROJETS/PROJECT_0_WildCircus*
+- *0000_PROJETS/PROJET_0_WildCircus*
 - [WebSite](https://eoras.github.io/WCS_PROJECT_0_WildCircus/)
 
 ----
